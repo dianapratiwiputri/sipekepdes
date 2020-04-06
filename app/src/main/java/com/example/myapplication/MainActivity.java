@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ImageAdapter adapter = new ImageAdapter(this);
         viewPager.setAdapter(adapter);
 
+
     }
 
 }
