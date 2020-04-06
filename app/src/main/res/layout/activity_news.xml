@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsActivity">
+
+    <TextView
+        android:id="@+id/textJudulBerita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:text="Judul Berita 1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textAuthorBerita"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTanggalTerbitBerita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="01 Maret 2020"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textJudulBerita" />
+
+    <TextView
+        android:id="@+id/textAuthorBerita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Admin"
+        app:layout_constraintEnd_toEndOf="@+id/textTanggalTerbitBerita"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textJudulBerita" />
+
+    <TextView
+        android:id="@+id/textBerita"
+        android:layout_width="379dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit eros eu consequat aliquet. Nam vitae lacus at felis dignissim accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec aliquet luctus arcu non fringilla. Curabitur aliquet turpis vitae porttitor aliquam. Donec metus nibh, posuere auctor nunc sed, pharetra faucibus tellus. Praesent sit amet enim iaculis, tempus leo at, rutrum elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere sed metus sit amet varius. Fusce lobortis urna orci, ac tincidunt elit ornare at.  Quisque pellentesque posuere ligula eu lobortis. Suspendisse pellentesque imperdiet justo mattis consectetur. Suspendisse ac volutpat lacus, non volutpat dui. Suspendisse viverra ante at dapibus tincidunt. Quisque blandit lacinia elementum. Morbi eu posuere leo. Proin sit amet laoreet leo. Morbi vitae ex at arcu commodo congue vel sit amet purus. Nam feugiat iaculis massa, et volutpat mi scelerisque vel. Vestibulum ut enim a magna consequat aliquet. Mauris in nibh vitae felis ullamcorper consequat quis non mauris. Cras venenatis placerat nisl, non posuere massa ultricies non. Nulla scelerisque laoreet tortor. Morbi id dui purus."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
